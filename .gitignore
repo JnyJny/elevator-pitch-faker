@@ -1,0 +1,15 @@
+# Cache objects
+packer_cache/
+
+# For built boxes
+*.box
+.cache
+*~
+.pyc
+
+*.egg-info
+.eggs
+build/*
+dist/*
+
+*.txt
