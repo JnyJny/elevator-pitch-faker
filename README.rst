@@ -69,5 +69,5 @@ View the methods defined by ElevatorPitchProvider:
 .. _Elevator Pitch: https://github.com/jnyjny/elevator-pitch-faker
 
 .. _article: https://electricliterature.com/how-to-write-elevator-pitch-novel-publicity-infographic-a8ec74ecf7ce
-    :alt: This Handy Chart Automatically Generates a Pitch for Your New Novel
+    
 
