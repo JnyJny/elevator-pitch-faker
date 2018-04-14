@@ -5,7 +5,7 @@
 from faker.providers import BaseProvider
 
 
-class ElevatorPitchProvider(BaseProvider):
+class StoryPitchProvider(BaseProvider):
 
     _superlatives = [
         "edge-of-your-seat",
@@ -247,7 +247,7 @@ class ElevatorPitchProvider(BaseProvider):
     def _determiner_for(self, word):
         return 'an' if word[0].lower() in 'aeiou' else 'a'
 
-    def elevator_pitch(self):
+    def story_pitch(self, genre=None):
         '''
         '''
         superlative = self.superlative

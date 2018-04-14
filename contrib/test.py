@@ -2,10 +2,10 @@
 
 from faker import Faker
 
-from src.elevator_pitch import ElevatorPitchProvider
+from src.elevator_pitch import StoryPitchProvider
 
 fake = Faker()
 
-fake.add_provider(ElevatorPitchProvider)
+fake.add_provider(StoryPitchProvider)
 
-print(fake.elevator_pitch())
+print(fake.story_pitch())

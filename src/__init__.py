@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from .elevator_pitch import ElevatorPitchProvider
+from .elevator_pitch import StoryPitchProvider
 
 __all__ = [
-    'ElevatorPitchProvider',
+    'StoryPitchProvider',
 ]

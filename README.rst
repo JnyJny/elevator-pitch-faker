@@ -1,5 +1,5 @@
 Elevator Pitch Faker
-================
+====================
 
 |pypi| |license| |python|
 
@@ -32,24 +32,24 @@ Uninstall with pip:
 Usage
 -----
 
-Add the ``ElevatorPitchProvider`` to your ``Faker`` instance:
+Add the ``StoryPitchProvider`` to your ``Faker`` instance:
 
 .. code:: python
 
 	  from faker import Faker
-	  from elevator_pitch_faker import ElevatorPitchProvider
+	  from elevator_pitch_faker import StoryPitchProvider
 	  
 	  fake = Faker()
-	  fake.add_provider(ElevatorPitchProvider)
+	  fake.add_provider(StoryPitchProvider)
 	  
-          print(fake.pitch())
+          print(fake.story_pitch())
 
 
 View the methods defined by ElevatorPitchProvider:
 
 .. code:: bash
 	  
-  $ pydoc3 elevator_pitch.ElevatorPitchProvider
+  $ pydoc3 elevator_pitch.StoryPitchProvider
 
 
 .. |pypi| image:: https://img.shields.io/pypi/v/elevator-pitch-faker.svg?style=flat-square&label=version
